@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/qvjz8QFW/Logo.png" />
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <title>Cậu có thích tớ không ???</title>
   <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
   <img id="gif" src="https://i.pinimg.com/originals/01/df/7f/01df7f2337097617c8e34c15802b077f.gif" alt="Cute GIF"/>
-  <h1 id="question">Cậu có thích tôi không ??</h1>
+  <h1 id="question">Tui thích bà, làm bạn gái tui nha ??</h1>
 
   <div class="button-group">
-    <button id="yesBtn" class="btn btn-yes">Có</button>
-    <button id="noBtn" class="btn btn-no">Không</button>
+    <div class="container-yes">
+      <button id="yesBtn" class="btn btn-yes">Có</button>
+    </div>
+    <div class="container-no">
+      <button id="noBtn" class="btn btn-no">Không</button>
+    </div>
   </div>
 
   <audio id="bg-music1">
@@ -26,7 +31,7 @@
     <source src="./style/sound/Quack03.mp3" type="audio/mpeg" />
   </audio>
   <audio id="bg-music4">
-    <source src="./style/nhac.mp3" type="audio/mpeg" />
+    <source src="./style/sound/nhac.mp3" type="audio/mpeg" />
   </audio>
 
   <script src="./style/script.js"></script>
